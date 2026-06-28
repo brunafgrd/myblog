@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    background-color: #ffffffda;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+nav{
+    background-color: #92b4e7;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    margin: 0 20px;
+     font-size: 18px;
+     transition: 0.5s;
+}
+nav a:hover {
+    opacity: 0.4;
+ 
+
+}
+h1{
+    font-size: 60px;
+    color: #a8bad1;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+p {
+    color: #5e5858;
+    text-align: center;
+}
+
+pre {
+    color: #5e5858;
+    text-align: center;
+     font-family: 'Segoe UI', sans-serif;
+  
+}
+
+
+.inicio{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 80px;
+    min-height: 600px;
+}
+#selfie{
+   
+    border-radius: 30%;
+    object-fit: cover;
+
+}
+
+
+h2{
+    font-size: 60px;
+    color: #a8bad1;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color:#9C9B9A;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+h4 {
+    text-align: center;
+    color:#9C9B9A;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: center;
+    color:#9C9B9A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffefe0;
+}
+
+th,td {
+    border: 1px solid #8f8d8d;
+    padding: 10px;
+     color:#333;
+     
+}
+ul {
+    color:#5e5858;
+    width: fit-content;
+    margin: auto;
+    list-style:none;
+}
+
+
+.concluido{
+    background-color: #85b994;
+    font-weight: bold;
+}
+
+.andamento{
+    background-color: #f0e4ae;
+    font-weight: bold;
+}
+
+.sobre-container{
+    margin: 40px;
+}
+
+.curiosidades{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.curiosidade{
+    background-color: #ffefe0;
+    border: 1px solid #d6ab9a;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #5e5858;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.curiosidades h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    background-color:#92b4e7;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+footer p{
+    margin: 5px;
+}
+
+footer h4{
+    margin-top: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #4A4A4A;
+    margin: 0 10px;
+}
+
+footer a:hover{
+    opacity: 0.7;
+}
+
+.novidades{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+}
+
+.blocos{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #998678;
+    text-align: center;
+    background-color: #ffefe0;
+    
+}
+
+.blocos img{
+    width: 250px;
+    height: 280px;
+}
+
+form{
+    width: 40%;
+    margin: auto;
+}
+
+label{
+    color: #5e5858;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e7ccc1;
+    margin-top: 5px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#mensagem {
+    width: 100%;
+    height: 70px;
+}
+
+input[type="submit"]{
+    background-color: #a3c0f7;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.8;
+}
+
+.redes{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #5e5858;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.redes a:hover{
+    opacity: 0.7;
+}
+
+.redes img{
+    width: 40px;
+    vertical-align:middle;
+    margin-right: 5px;
+}
+
+.referencias{
+    width: 70%;
+    margin: auto;
+}
+
+.referencias a{
+    text-decoration: none;
+    color: #5e5858;
+    font-weight: bold;
+}
+
+.referencias a:hover{
+    opacity: 0.7;
+}
+.portfolio{
+    width: 70%;
+    margin: auto;
+}
+
+.portfolio img{
+    display: block;
+    margin: 30px auto;
+    width: 600px;
+    max-width: 100%;
+    border: 1px solid #d6ab9a;
+    border-radius: 15px;
+}
