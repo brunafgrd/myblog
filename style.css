@@ -297,12 +297,3 @@ input[type="submit"]:hover{
     }
 
 }
-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-}
-
-nav a{
-    margin:10px;
-}
